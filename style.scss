@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Audiowide", sans-serif;
-}
-
+@import 'base.scss';
 body {
     font-size: 1em;
 
@@ -33,7 +28,7 @@ body {
         margin-bottom: 25px;
         font-size: 1em;
         padding: 10px;
-        background-color: rgba(233, 173, 248, 0.266);
+        background-color: $roxo;
         margin: 10px;
         border-radius: 10px;
         height: 90px;
@@ -44,7 +39,7 @@ body {
 }
 
 #area-cabecalho {
-    background-color: #00008b;
+    background-color: $azul;
     top: 0;
     left: 0;
     right: 0;
@@ -55,14 +50,14 @@ body {
 
     #area-menu a:link,
     #area-menu a:visited {
-        color: #FFF;
+        color: $branco;
         font-weight: bold;
         font-size: 0.9em;
     }
 
     #area-menu a:hover {
-        color: #f7b600;
-        background-color: #FFF;
+        color: $laranja;
+        background-color: &branco;
         border-radius: 3px;
     }
 
@@ -92,20 +87,20 @@ ul li {
 a {
     padding: 3px 12px;
     text-decoration: none;
-    color: white;
+    color: $branco;
 }
 
 
 .amarelo {
-    color: rgb(183, 183, 4);
+    color: $amarelo;
 }
 
 .branco {
-    color: #FFF;
+    color: $branco;
 }
 
 #footer {
-    background-color: #00008b;
+    background-color: $azul;
     bottom: 0;
     width: 100%;
     padding-top: 15px;
@@ -113,8 +108,8 @@ a {
 
 
     #footer a:hover {
-        color: #f7b600;
-        background-color: #FFF;
+        color:$laranja;
+        background-color: $branco;
         border-radius: 3px;
     }
 
@@ -128,12 +123,12 @@ a {
 
 
     .estamos-localizados {
-        color: white;
+        color: $branco;
         margin-top: 20px;
     }
 
     .contatos {
-        color: white;
+        color: $branco;
         width: auto;
         margin-top: 20px;
     }
@@ -146,7 +141,7 @@ a {
     }
 
     .links-rapidos {
-        color: white;
+        color: $branco;
         width: auto;
         margin-top: 20px;
     }
@@ -178,7 +173,7 @@ a {
 #formMensagem {
     margin: 50px;
     padding: 20px;
-    border: 5px solid rgb(183, 183, 4);
+    border: 5px solid $amarelo;
     border-radius: 6px;
     width: 50%;
     display: flex;
@@ -228,13 +223,13 @@ a {
 
 
 .link-rede-social {
-    color: #00008b;
+    color: $azul;
     text-decoration: underline;
 }
 
 .item-servico {
     margin: 10px;
-    background-color: rgba(233, 173, 248, 0.266);
+    background-color:$roxo;
     border-radius: 10px;
 }
 
@@ -264,9 +259,9 @@ a {
 }
 
 .input-form {
-    background-color: white;
+    background-color: $branco;
     border-radius: 3px;
-    border-color: black;
+    border-color: $preto;
     block-size: auto;
 }
 
@@ -297,7 +292,7 @@ a {
 }
 
 .consertos-hardware ul li {
-    color: black;
+    color: $preto;
     list-style-type: disc;
 }
 

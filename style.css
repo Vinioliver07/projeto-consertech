@@ -39,7 +39,7 @@ body .rede-social {
 }
 
 #area-cabecalho {
-  background-color: #00008b;
+  background-color: rgb(0, 0, 139);
   top: 0;
   left: 0;
   right: 0;
@@ -49,13 +49,13 @@ body .rede-social {
 }
 #area-cabecalho #area-menu a:link,
 #area-cabecalho #area-menu a:visited {
-  color: #FFF;
+  color: white;
   font-weight: bold;
   font-size: 0.9em;
 }
 #area-cabecalho #area-menu a:hover {
   color: #f7b600;
-  background-color: #FFF;
+  background-color: ffff;
   border-radius: 3px;
 }
 #area-cabecalho #area-menu ul {
@@ -87,11 +87,11 @@ a {
 }
 
 .branco {
-  color: #FFF;
+  color: white;
 }
 
 #footer {
-  background-color: #00008b;
+  background-color: rgb(0, 0, 139);
   bottom: 0;
   width: 100%;
   padding-top: 15px;
@@ -99,7 +99,7 @@ a {
 }
 #footer #footer a:hover {
   color: #f7b600;
-  background-color: #FFF;
+  background-color: white;
   border-radius: 3px;
 }
 #footer .conteudo-footer {
@@ -202,7 +202,7 @@ a {
 }
 
 .link-rede-social {
-  color: #00008b;
+  color: rgb(0, 0, 139);
   text-decoration: underline;
 }
 
@@ -240,7 +240,7 @@ a {
 .input-form {
   background-color: white;
   border-radius: 3px;
-  border-color: black;
+  border-color: #000000;
   block-size: auto;
 }
 
@@ -271,7 +271,7 @@ a {
 }
 
 .consertos-hardware ul li {
-  color: black;
+  color: #000000;
   list-style-type: disc;
 }
 
